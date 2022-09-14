@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: api-bolierplate
+  description: api-bolierplate example app
+  tags:
+    - javascript
+    - server-worker
+    links:
+      - url: https://github.com/brunofurmon
+        title: Author
+        icon: github
+spec:
+  type: openapi
+  lifecycle: production
+  owner: brunofurmon
+  system: api-bolierplate
+  definition: 
+    $text: https://github.com/brunofurmon/api-boilerplate/blob/main/docs/swagger.json
