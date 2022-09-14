@@ -6,10 +6,10 @@ metadata:
   tags:
     - javascript
     - server-worker
-    links:
-      - url: https://github.com/brunofurmon
-        title: Author
-        icon: github
+  links:
+    - url: https://github.com/brunofurmon
+      title: Author
+      icon: github
 spec:
   type: openapi
   lifecycle: production
